@@ -1,6 +1,7 @@
 def square_array(array)
-  new_array = [1,2,3]
-  new_array.each{ |f|
-    puts i**
+  counter = 0
+  while count<array.length {
+    array.index ** 2
   }
+  square_array(array)
 end
