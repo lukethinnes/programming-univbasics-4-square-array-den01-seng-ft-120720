@@ -6,3 +6,9 @@ def square_array(array)
     end
   array
 end
+
+
+#collect method
+def square_using_collect(array)
+  array.collect{|i| i**2}
+end
