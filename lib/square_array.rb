@@ -1,4 +1,8 @@
 def square_array(array)
-  for (i=0; i< array.length; i++)
-    array[i**2]
+  i=array.length-1
+  while i>-1
+      array[i] = array[i] * array[i]
+      i=i-1
+    end
+  array
 end
