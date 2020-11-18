@@ -1,3 +1,4 @@
 def square_array(array)
-  return [1, 4, 9]
+  for (i=0; i< array.length; i++)
+    array[i**2]
 end
